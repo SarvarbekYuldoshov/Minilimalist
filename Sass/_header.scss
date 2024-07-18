@@ -1,0 +1,92 @@
+/* public-sans-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/public-sans-v15-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/public-sans-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/public-sans-v15-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/public-sans-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0  auto;
+    padding: 20px;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+}
+.header__list{
+    list-style: none;
+    display: flex;
+}
+.header__item{
+    margin: 20px;
+}
+.header__link{
+    font-family: "Public Sans"  ,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: aqua;    
+}
+.header__link:hover{
+    font-family: "Public Sans"  ,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: aqua; 
+    background: red;   
+}
+.header__link-active{
+    font-family: "Public Sans"  ,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color:blue;    
+}
+.header__link-active:hover{
+    font-family: "Public Sans"  ,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    color:blue;
+    background: yellow;    
+}

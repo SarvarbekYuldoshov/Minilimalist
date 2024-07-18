@@ -1,0 +1,292 @@
+/* public-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/public-sans-v15-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* public-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/public-sans-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* public-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/public-sans-v15-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* public-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/public-sans-v15-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+}
+
+.header__item {
+  margin: 20px;
+}
+
+.header__link {
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: aqua;
+}
+
+.header__link:hover {
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: aqua;
+  background: red;
+}
+
+.header__link-active {
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: blue;
+}
+
+.header__link-active:hover {
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: blue;
+  background: yellow;
+}
+
+.hero__container {
+  background-image: url(../images/rasm2.svg);
+}
+
+.hero__text {
+  width: 400px;
+  font-family: "Ibarra Real Nova", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -0.4464285672px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.hero__img {
+  width: 30px;
+  height: 30px;
+}
+
+.hero__list {
+  margin-left: -25px;
+  margin-top: 222px;
+  width: 450px;
+  height: 340px;
+  background: rgb(244, 242, 240);
+}
+
+.hero__button {
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 150px;
+  display: flex;
+  color: aliceblue;
+  background: #203A4C;
+}
+
+.hero__button:hover {
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 150px;
+  display: flex;
+  color: aliceblue;
+  background: red;
+}
+
+.hero__title {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.wrapper__container {
+  display: flex;
+  list-style: none;
+}
+
+.wrapper__list {
+  margin-left: 150px;
+}
+
+.wrapper__title {
+  margin-top: 50px;
+  font-family: "Ibarra Real Nova", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428657px;
+  text-align: left;
+}
+
+.wrapper__text {
+  width: 350px;
+  margin-top: 30px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #33323D;
+}
+
+.wrapper__button {
+  margin-top: 50px;
+  padding: 10px 30px;
+  background: transparent;
+}
+
+.wrapper__button:hover {
+  margin-top: 50px;
+  padding: 10px 30px;
+  background: blue;
+  color: whitesmoke;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.hover__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hover__button {
+  padding: 10px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+}
+
+.hover__button:hover {
+  border-radius: 3px;
+  color: whitesmoke;
+  background: blue;
+  padding: 10px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(233, 17, 17);
+}
+
+.hover__text {
+  width: 350px;
+  font-family: "Ibarra Real Nova", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.3571428657px;
+  text-align: left;
+}
+
+.wrap__container {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+}
+
+.wrap__list {
+  display: flex;
+  list-style: none;
+}
+
+.wrap__item {
+  margin: 20px;
+}
+
+.wrap__link {
+  color: aliceblue;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.wrap__link:hover {
+  color: rgb(240, 8, 54);
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.wrap__button {
+  padding: 7px 20px;
+  background: black;
+  color: antiquewhite;
+  margin-right: 50px;
+  border: 1px solid blue;
+  border-radius: 15px;
+}
+
+.wrap__button:hover {
+  background: rgb(240, 7, 7);
+  color: antiquewhite;
+  margin-right: 50px;
+  border-radius: 15px;
+  border: 1px solid blue;
+}
+
+.wrap__img {
+  margin-bottom: -7px;
+  margin-right: 10px;
+}/*# sourceMappingURL=main.css.map */

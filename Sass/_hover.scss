@@ -1,0 +1,28 @@
+.hover__container{
+    display: flex;
+    justify-content: space-between;
+}
+.hover__button{
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+}
+.hover__button:hover{
+    border-radius: 3px;
+    color: whitesmoke;
+    background: blue;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(233, 17, 17);
+}
+.hover__text{
+    width: 350px;
+    font-family: "Ibarra Real Nova"  ,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.3571428656578064px;
+    text-align: left;    
+}
