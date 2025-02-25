@@ -74,7 +74,7 @@
   line-height: 14px;
   letter-spacing: 2px;
   text-align: left;
-  color: aqua;
+  color: rgb(11, 240, 240);
   background: rgb(151, 3, 3);
 }
 
@@ -85,7 +85,7 @@
   line-height: 14px;
   letter-spacing: 2px;
   text-align: left;
-  color: blue;
+  color: rgb(1, 1, 204);
 }
 
 .header__link-active:hover {
