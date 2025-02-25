@@ -220,6 +220,8 @@
   border: 1px solid black;
 }
 
+/*  */
+
 .hover__button:hover {
   border-radius: 3px;
   color: whitesmoke;
