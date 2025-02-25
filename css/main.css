@@ -75,7 +75,7 @@
   letter-spacing: 2px;
   text-align: left;
   color: aqua;
-  background: red;
+  background: rgb(151, 3, 3);
 }
 
 .header__link-active {
